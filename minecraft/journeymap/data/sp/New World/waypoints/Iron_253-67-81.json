@@ -1,0 +1,22 @@
+{
+  "id": "Iron_253-67-81",
+  "name": "Iron",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--7066169-waypoint-icon.png",
+  "x": 253,
+  "y": 67,
+  "z": -81,
+  "r": 148,
+  "g": 45,
+  "b": 199,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

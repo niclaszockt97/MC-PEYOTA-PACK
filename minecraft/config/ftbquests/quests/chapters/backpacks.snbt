@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "backpacks"
+	group: "6584A61D93DC9214"
+	id: "70C183FC62460C82"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Backpacks"
+}

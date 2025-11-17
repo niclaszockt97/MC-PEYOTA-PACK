@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mid_game"
+	group: ""
+	id: "18A9B4C7847FBF4C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Mid Game"
+}

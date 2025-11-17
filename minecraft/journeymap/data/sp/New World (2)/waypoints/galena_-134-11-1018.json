@@ -1,0 +1,22 @@
+{
+  "id": "galena_-134-11-1018",
+  "name": "galena",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--3070149-waypoint-icon.png",
+  "x": -134,
+  "y": 11,
+  "z": 1018,
+  "r": 209,
+  "g": 39,
+  "b": 59,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

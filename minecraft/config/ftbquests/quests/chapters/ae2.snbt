@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae2"
+	group: "6584A61D93DC9214"
+	icon: "ae2:controller"
+	id: "6E0E92738839F834"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "4BCA7F143BEE0C38"
+		tasks: [{
+			id: "65E779699A29973F"
+			item: "ae2:controller"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "AE2"
+}

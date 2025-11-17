@@ -1,0 +1,23 @@
+{
+  "id": "Diamond_177-83-987",
+  "name": "Diamond",
+  "displayId": "c149b77d-06b8-475a-8bf2-377c40c056dc",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--3604481-waypoint-icon.png",
+  "x": 177,
+  "y": 83,
+  "z": 987,
+  "r": 200,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "gtceu",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -3604481,
+  "customIconColor": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "Leptoide_212-74-1019",
+  "name": "Leptoide",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--8121751-waypoint-icon.png",
+  "x": 212,
+  "y": 74,
+  "z": 1019,
+  "r": 132,
+  "g": 18,
+  "b": 105,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

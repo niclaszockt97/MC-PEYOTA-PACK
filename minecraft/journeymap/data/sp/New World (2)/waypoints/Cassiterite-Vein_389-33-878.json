@@ -1,0 +1,23 @@
+{
+  "id": "Cassiterite-Vein_389-33-878",
+  "name": "Cassiterite Vein",
+  "displayId": "2cfe671a-619f-4d39-a427-8331ef859dd1",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--7764866-waypoint-icon.png",
+  "x": 389,
+  "y": 33,
+  "z": 878,
+  "r": 137,
+  "g": 132,
+  "b": 126,
+  "enable": true,
+  "type": "Normal",
+  "origin": "gtceu",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -7764866,
+  "customIconColor": false
+}

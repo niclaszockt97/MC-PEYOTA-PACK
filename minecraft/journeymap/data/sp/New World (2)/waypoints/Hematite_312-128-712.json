@@ -1,0 +1,23 @@
+{
+  "id": "Hematite_312-128-712",
+  "name": "Hematite",
+  "displayId": "b05be739-185d-4210-9376-2ed976622802",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--36511-waypoint-icon.png",
+  "x": 312,
+  "y": 128,
+  "z": 712,
+  "r": 255,
+  "g": 113,
+  "b": 97,
+  "enable": true,
+  "type": "Normal",
+  "origin": "gtceu",
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -36511,
+  "customIconColor": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "Dia_582-58-1369",
+  "name": "Dia",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--8086883-waypoint-icon.png",
+  "x": 582,
+  "y": -58,
+  "z": 1369,
+  "r": 132,
+  "g": 154,
+  "b": 157,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

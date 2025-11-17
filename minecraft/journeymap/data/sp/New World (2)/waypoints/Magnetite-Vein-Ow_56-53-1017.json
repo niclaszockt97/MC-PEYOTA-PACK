@@ -1,0 +1,23 @@
+{
+  "id": "Magnetite-Vein-Ow_56-53-1017",
+  "name": "Magnetite Vein Ow",
+  "displayId": "3658aa23-e86c-4d01-abfd-aad4fad3bcf2",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--133793-waypoint-icon.png",
+  "x": 56,
+  "y": 53,
+  "z": 1017,
+  "r": 253,
+  "g": 245,
+  "b": 95,
+  "enable": true,
+  "type": "Normal",
+  "origin": "gtceu",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -133793,
+  "customIconColor": false
+}

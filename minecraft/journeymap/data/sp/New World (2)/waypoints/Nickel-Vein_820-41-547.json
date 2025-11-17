@@ -1,0 +1,23 @@
+{
+  "id": "Nickel-Vein_820-41-547",
+  "name": "Nickel Vein",
+  "displayId": "5385db4d-1889-48be-86c3-1d9cf7d8ad70",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--1847533-waypoint-icon.png",
+  "x": 820,
+  "y": 41,
+  "z": 547,
+  "r": 227,
+  "g": 207,
+  "b": 19,
+  "enable": true,
+  "type": "Normal",
+  "origin": "gtceu",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1847533,
+  "customIconColor": false
+}

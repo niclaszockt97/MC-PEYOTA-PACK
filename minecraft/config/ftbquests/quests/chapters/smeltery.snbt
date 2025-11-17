@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "smeltery"
+	group: "33EBD11626CFA79D"
+	icon: "tconstruct:smeltery_controller"
+	id: "0239E22E8D2F1C6B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["0A0E557559F287E4"]
+		id: "75182ED8B1C78095"
+		tasks: [{
+			id: "062E28F36C1309FD"
+			title: "Smeltery Use"
+			type: "checkmark"
+		}]
+		x: -3.5d
+		y: -0.5d
+	}]
+	title: "Smeltery"
+}

@@ -1,0 +1,6 @@
+#05EFD1 gtceu:cupronickel_coil_block
+#80497A minecraft:dirt
+#2DC94B minecraft:furnace
+#3F84B7 minecraft:grass_block
+#9D79AA gtceu:heatproof_machine_casing
+#1FA5A3 gtceu:lv_energy_input_hatch

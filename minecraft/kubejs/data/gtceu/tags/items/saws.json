@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "gtceu:wood_saw",
+    "gtceu:stone_saw",
+    "gtceu:iron_saw",
+    "gtceu:steel_saw",
+    "gtceu:diamond_saw",
+    "gtceu:electronic_saw"
+  ]
+}

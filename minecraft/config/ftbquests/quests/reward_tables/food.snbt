@@ -1,0 +1,13 @@
+{
+	id: "6D53996E0EB1249B"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 8, item: "minecraft:apple" }
+		{ count: 15, item: "minecraft:wheat" }
+		{ count: 8, item: "minecraft:beef" }
+		{ count: 8, item: "minecraft:chicken" }
+		{ count: 8, item: "minecraft:porkchop" }
+	]
+	title: "Food"
+}

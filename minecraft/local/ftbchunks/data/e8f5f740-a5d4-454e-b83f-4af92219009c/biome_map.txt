@@ -1,0 +1,8 @@
+#6F6 minecraft:badlands
+#008 minecraft:desert
+#614 minecraft:eroded_badlands
+#5FF minecraft:river
+#67B minecraft:savanna
+#706 minecraft:savanna_plateau
+#421 minecraft:stony_peaks
+#51A minecraft:stony_shore

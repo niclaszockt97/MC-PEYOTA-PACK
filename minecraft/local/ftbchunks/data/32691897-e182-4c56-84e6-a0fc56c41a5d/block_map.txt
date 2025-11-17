@@ -1,0 +1,11 @@
+#EF1AC2 ae2:64k_crafting_storage
+#208CB0 ae2:cable_bus
+#2BFCCE ae2:controller
+#EAC8A0 ae2:crafting_accelerator
+#2D9D0F ae2:crafting_monitor
+#5F7313 ae2:crafting_unit
+#12BD5B ae2:creative_energy_cell
+#80497A minecraft:dirt
+#E432BC ae2:drive
+#3F84B7 minecraft:grass_block
+#B87AAC createappliedkinetics:me_proxy

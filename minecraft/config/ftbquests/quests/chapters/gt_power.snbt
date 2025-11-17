@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gt_power"
+	group: "018CFC5E1677CB17"
+	id: "4BF85FF5215F7EDF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "GT Power"
+}

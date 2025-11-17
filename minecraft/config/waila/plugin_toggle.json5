@@ -1,0 +1,12 @@
+{
+  "minecraft:projecte": true,
+  "ae2:wthit": true,
+  "waila:core": true,
+  "waila:vanilla": true,
+  "waila:harvest": true,
+  "waila:extra": true,
+  "waila:forge": true,
+  "mekanism:plugin": true,
+  "projectexpansion:plugin": true,
+  "securitycraft:plugin": true
+}

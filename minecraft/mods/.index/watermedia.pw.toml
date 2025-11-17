@@ -1,0 +1,16 @@
+filename = 'watermedia-2.1.36.jar'
+name = 'WATERMeDIA: Multimedia API'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.16.5', '1.18.2', '1.19.2', '1.20.1', '1.21.1', '1.21.5' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd5a2dd8177d1456cc59817bf2e0ff463eb62d2d17ed2e7f272c6d05daabc9c67c0ed97399c01f730f2fcd9c175cc2e0dafdba097891de4c464bae51e49e6dc70'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/G922NeHS/versions/yezkkXsZ/watermedia-2.1.36.jar'
+
+[update.modrinth]
+mod-id = 'G922NeHS'
+version = 'yezkkXsZ'

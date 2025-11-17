@@ -1,0 +1,16 @@
+filename = 'multiblocked2-1.20.1-1.0.36.jar'
+name = 'Multiblocked2'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '35405a47992b88bfd67b9b8609e103aaebbde6c100ac552021e5d730561adb217ff4aa95330157acaccdbcf5475d7e847ea21fc4ee6307d0eee0ae0e28d2bad3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/R2gjKEpa/versions/SIaokdkA/multiblocked2-1.20.1-1.0.36.jar'
+
+[update.modrinth]
+mod-id = 'R2gjKEpa'
+version = 'SIaokdkA'

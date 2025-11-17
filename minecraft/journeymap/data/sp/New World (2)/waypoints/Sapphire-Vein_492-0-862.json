@@ -1,0 +1,23 @@
+{
+  "id": "Sapphire-Vein_492-0-862",
+  "name": "Sapphire Vein",
+  "displayId": "b77b3772-e71b-484a-b077-2b13b01d2551",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--13486621-waypoint-icon.png",
+  "x": 492,
+  "y": 0,
+  "z": 862,
+  "r": 50,
+  "g": 53,
+  "b": 227,
+  "enable": true,
+  "type": "Normal",
+  "origin": "gtceu",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -13486621,
+  "customIconColor": false
+}

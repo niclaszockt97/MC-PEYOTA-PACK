@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "item": "tconstruct:cobalt_ingot",
+      "emc": 2016
+    },
+    {
+      "item": "gtceu:lead_ingot",
+      "emc": 0
+    },
+    {
+      "item": "gtceu:tin_ingot",
+      "emc": 0
+    },
+    {
+      "item": "gtceu:wrought_iron_ingot",
+      "emc": 0
+    },
+    {
+      "item": "gtceu:bronze_ingot",
+      "emc": 0
+    },
+    {
+      "item": "gtceu:nickel_ingot",
+      "emc": 0
+    }
+  ]
+}

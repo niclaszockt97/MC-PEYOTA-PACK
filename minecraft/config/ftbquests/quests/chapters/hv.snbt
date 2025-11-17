@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hv"
+	group: "2E28F2D6E07A865F"
+	id: "676437F723A985FD"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "HV"
+}

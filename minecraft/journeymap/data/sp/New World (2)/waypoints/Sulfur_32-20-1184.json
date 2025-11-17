@@ -1,0 +1,22 @@
+{
+  "id": "Sulfur_32-20-1184",
+  "name": "Sulfur",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--8360527-waypoint-icon.png",
+  "x": 32,
+  "y": 20,
+  "z": 1184,
+  "r": 128,
+  "g": 109,
+  "b": 177,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "018CFC5E1677CB17", title: "Power" }
+		{ id: "6584A61D93DC9214", title: "Storage" }
+		{ id: "2E28F2D6E07A865F", title: "GregTech" }
+		{ id: "33EBD11626CFA79D", title: "Tinkers Construct" }
+	]
+}

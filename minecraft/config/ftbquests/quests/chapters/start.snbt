@@ -1,0 +1,415 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "start"
+	group: ""
+	icon: "minecraft:furnace"
+	id: "12A075942DDC3345"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to Peyton."
+				""
+				"This Modpack is a Kitchen Sink Modpack."
+				"Feel free to explore in your own pace and will."
+			]
+			icon: "minecraft:oak_log"
+			id: "667AAE786F178C60"
+			rewards: [
+				{
+					count: 4
+					id: "1926B8E2D534A1DE"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5B8173C5A4020A66"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7C3767A4FAFF48E7"
+					item: "minecraft:apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5D53C4F71C5C3D2A"
+				type: "checkmark"
+			}]
+			title: "Welcome"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["667AAE786F178C60"]
+			description: ["The start is always the same, so no need to explain it."]
+			id: "45D1F9A8806790F8"
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "45C5F4BE1F2EBB3E"
+				item: { Count: 8, id: "minecraft:oak_log" }
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Getting Wood"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["45D1F9A8806790F8"]
+			description: ["To progress further you have to craft an Crafting Table."]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "15563FB6E3E6C60A"
+			tasks: [{
+				id: "7A1DFD1293998536"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["45D1F9A8806790F8"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "3354909C08D793FA"
+			tasks: [{
+				disable_toast: true
+				id: "59FE298FF03E699D"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			title: "More Wood."
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["45D1F9A8806790F8"]
+			description: [
+				"To craft better tools and a furnace you need to collect your first stone."
+				""
+				"Craft a wooden pickaxe and mine 3 cobblestone."
+				"With these 3 stones craft a stone pickaxe and mine the rest of the stone necaserry for this quest."
+			]
+			id: "4D38ADDD4198B570"
+			tasks: [{
+				count: 16L
+				id: "558FA68170562E4E"
+				item: { Count: 16, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			title: "Gethering Stone"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4D38ADDD4198B570"]
+			description: [
+				"To smelt ores or cook food you need a furnace."
+				"Craft it with 8 cobblestones."
+			]
+			hide_until_deps_complete: true
+			id: "450A3ED46F288CDC"
+			tasks: [{
+				id: "6E9469DFCBB5DCE1"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["667AAE786F178C60"]
+			description: [
+				"In this pack we have 2 typs of chisels."
+				"You can use a lot of diffrent blocks in the chisel."
+			]
+			id: "3E2651EB8F05163D"
+			rewards: [
+				{
+					id: "79B22CAFC05E8FE6"
+					item: {
+						Count: 1
+						id: "rechiseled:chisel"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "31FE5140A9936027"
+					item: "chisel:chisel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33E31BDA54F6EC73"
+				title: "Chisel"
+				type: "checkmark"
+			}]
+			title: "Chisel"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45D1F9A8806790F8"]
+			hide_until_deps_complete: true
+			id: "56D8D03B4315070E"
+			tasks: [{
+				id: "103C0892D78CFE49"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			title: "Eating"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["667AAE786F178C60"]
+			description: [
+				"I now that the start of every pack is a little bit boring."
+				""
+				"Here you have a little starting gear."
+			]
+			id: "59FF5A784BC70DAB"
+			rewards: [
+				{
+					id: "127ECB14B0E8CF12"
+					item: "sophisticatedbackpacks:iron_backpack"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7ED2FAE6A4AAFDDA"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "13683EABE73C8EBA"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63700B15CA04E802"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4EDB59A9D95BFB00"
+				title: "Startin Gear"
+				type: "checkmark"
+			}]
+			title: "Starting Gear"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["450A3ED46F288CDC"]
+			description: [
+				"Furnaces have diffrent tiers."
+				" "
+				"These tiers are more fuel efficent and have faster smelting speeds."
+			]
+			id: "7758DA43DAF962B4"
+			tasks: [{
+				id: "4EC65A045D13E850"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			title: "Better Furnace"
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7758DA43DAF962B4"]
+			id: "0C0557E889F59D6D"
+			rewards: [{
+				id: "0CDB6AEBA2F205CF"
+				item: "ironfurnaces:upgrade_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4298570AA80BBB7C"
+				item: "ironfurnaces:upgrade_gold"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0C0557E889F59D6D"]
+			id: "4136C097F93EE328"
+			rewards: [{
+				id: "7637626BD5E7BAAF"
+				item: "ironfurnaces:upgrade_diamond"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5510FAFB2D33E0A2"
+				item: "ironfurnaces:upgrade_diamond"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4136C097F93EE328"]
+			id: "65BA5C2C8F85E110"
+			rewards: [{
+				id: "65D21A76C03BF04E"
+				item: "ironfurnaces:upgrade_emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F2AFA5E5358039C"
+				item: "ironfurnaces:upgrade_emerald"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4D38ADDD4198B570"]
+			description: [
+				"Now its time to gether some advanced rescources."
+				""
+				"However. Ore generatinon in this modpack is diffrent then vanilla minecraft."
+				"The mod how caused it is called &l\"Greg Tech CEU\"&r. "
+				"This mod edited the ore spawn. It will generate huge veins and add a lot of ores."
+				""
+				"{@pagebreak}"
+				"To find the veins you receive some GregTech Gear."
+				""
+				"Use the ore prospector to find the large veins."
+			]
+			icon: "minecraft:iron_block"
+			id: "6F7436AAF7C3051D"
+			rewards: [
+				{
+					id: "3E7A9A90C73EAC1A"
+					item: {
+						Count: 1
+						id: "gtceu:prospector.lv"
+						tag: {
+							charge: 100000L
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03E7F48EC1ECD647"
+					item: "gtceu:lv_battery_buffer_4x"
+					type: "item"
+				}
+				{
+					id: "7C6A84533460F94B"
+					item: "gtceu:lv_solar_panel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "3AFFA125F27B4AD2"
+				item: { Count: 8, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			title: "Gethering Iron"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F7436AAF7C3051D"]
+			icon: "tconstruct:smeltery_controller"
+			id: "0A0E557559F287E4"
+			tasks: [
+				{
+					id: "0ED77E1F235F744C"
+					item: "tconstruct:smeltery_controller"
+					type: "item"
+				}
+				{
+					id: "3FFDB0CBA1B403B5"
+					item: "tconstruct:seared_drain"
+					type: "item"
+				}
+				{
+					id: "72EE7CA19D641580"
+					item: "tconstruct:seared_fuel_tank"
+					type: "item"
+				}
+				{
+					id: "64972E05F4904863"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "3584C3554D2C62CB"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "28C461A114AB12A1"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "18C66ED5578279CD"
+					item: { Count: 64, id: "tconstruct:seared_brick" }
+					type: "item"
+				}
+			]
+			title: "Smeltery"
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["15563FB6E3E6C60A"]
+			icon: "minecraft:wheat"
+			id: "5EF971F43874A7CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "385500344B1FF33F"
+				table_id: 7877808871173072027L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					count: 3L
+					id: "6DCDE56506420254"
+					item: { Count: 3, id: "minecraft:wheat" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "4001D07210B28912"
+					item: { Count: 3, id: "minecraft:wheat_seeds" }
+					type: "item"
+				}
+			]
+			title: "Food"
+			x: 0.5d
+			y: 2.0d
+		}
+	]
+	title: "Early Game"
+}

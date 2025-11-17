@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lv"
+	group: "2E28F2D6E07A865F"
+	id: "4ED69219A56086BC"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "LV"
+}
