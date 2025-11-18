@@ -410,6 +410,86 @@
 			x: 0.5d
 			y: 2.0d
 		}
+		{
+			dependencies: ["0A0E557559F287E4"]
+			id: "08E7B94827F00287"
+			subtitle: "How to use the Smeltery?"
+			tasks: [
+				{
+					id: "4CF8D3302E5C9C43"
+					item: "tconstruct:pick_head_cast"
+					type: "item"
+				}
+				{
+					id: "676D3C6C0D449CD5"
+					item: "tconstruct:small_axe_head_cast"
+					type: "item"
+				}
+				{
+					id: "30409D9D52C9B962"
+					item: "tconstruct:adze_head_cast"
+					type: "item"
+				}
+			]
+			title: "HtutS?"
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0A0E557559F287E4"]
+			icon: "minecraft:lava_bucket"
+			id: "461337E7AAEF0400"
+			tasks: [{
+				id: "62861695AA7698B4"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			title: "Smeltery Fuel"
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0A0E557559F287E4"]
+			id: "4E560829AD013580"
+			tasks: [
+				{
+					id: "2217FDA49237538A"
+					item: {
+						Count: 1
+						id: "tconstruct:pick_head"
+						tag: {
+							Material: "tconstruct:iron"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5880E8EC49602AB2"
+					item: {
+						Count: 1
+						id: "tconstruct:small_axe_head"
+						tag: {
+							Material: "tconstruct:iron"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B438CBEB7E5BE71"
+					item: {
+						Count: 1
+						id: "tconstruct:adze_head"
+						tag: {
+							Material: "tconstruct:iron"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Advanced Iron Tools"
+			x: 9.5d
+			y: 0.5d
+		}
 	]
 	title: "Early Game"
 }
