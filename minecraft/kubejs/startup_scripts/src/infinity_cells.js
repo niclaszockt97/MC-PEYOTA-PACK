@@ -1,5 +1,7 @@
 StartupEvents.registry("item",event =>{
     event.create("infinity_iron_ingot_cell","meinfinitycell:infinity_cell").itemType("minecraft:iron_ingot")
+    event.create("infinity_gold_ingot_cell","meinfinitycell:infinity_cell").itemType("minecraft:gold_ingot")
+    event.create("infinity_diamond_cell","meinfinitycell:infinity_cell").itemType("minecraft:diamond")
 
     //Additional Mod required: Applied Flux
     //event.create("infinity_fe_cell","meinfinitycell:infinity_cell").type(FluxKeyHelper.of(EnergyType.FE))

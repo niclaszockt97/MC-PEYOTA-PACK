@@ -83,6 +83,8 @@ ServerEvents.recipes(event => {
   })
 })
 
+
+
 // Smelting: Iron → Wrought Iron
 ServerEvents.recipes(event => {
   event.smelting(
