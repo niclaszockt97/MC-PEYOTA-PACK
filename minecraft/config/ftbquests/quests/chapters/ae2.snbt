@@ -7,15 +7,47 @@
 	id: "6E0E92738839F834"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "4BCA7F143BEE0C38"
-		tasks: [{
-			id: "65E779699A29973F"
-			item: "ae2:controller"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["328FAFFE8D4BF2CD"]
+			id: "4BCA7F143BEE0C38"
+			tasks: [
+				{
+					id: "2E15900C403A3E09"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "6558AB7AFF0C4717"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "6120DF14477E58D9"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "7D259A15F0C227DF"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			title: "But first... Presses!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BCA7F143BEE0C38"]
+			id: "031EE046450A5E41"
+			tasks: [{
+				id: "0881A308566A6094"
+				item: "gtceu:certus_quartz_block"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
 	title: "AE2"
 }

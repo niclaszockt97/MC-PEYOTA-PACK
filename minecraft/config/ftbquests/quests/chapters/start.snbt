@@ -490,6 +490,17 @@
 			x: 9.5d
 			y: 0.5d
 		}
+		{
+			dependencies: ["0A0E557559F287E4"]
+			id: "328FAFFE8D4BF2CD"
+			tasks: [{
+				id: "6938269BF76F15E2"
+				title: "AE2 Start"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
 	]
 	title: "Early Game"
 }
